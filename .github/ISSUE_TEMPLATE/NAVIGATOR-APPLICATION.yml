@@ -1,0 +1,71 @@
+name: Navigator Application
+description: Use this form to apply as a Navigator to the Fuel Developer Champions program.
+title: "[Application] : "
+labels: ["application"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to submit an application to level up as a Navigator in the Fuel Developer Champions program! Navigators are developers who have been building on Fuel for a while and are looking to continue their journey by taking the next step in the Champions program.
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out each section to the best of your ability. The more information you can provide the better we are able to evaluate your application.
+  - type: textarea
+    id: proof-of-innovative-work
+    attributes:
+      label: Proof of innovative work
+      description: Navigators are building advanced and innovative solutions on Fuel. Share with us the links to GitHub repos which demonstrates a level of innovation and unique problem solving in your work as it relates to Fuel.
+      placeholder: Add links to your Fuel project contribution(s) here.\
+  - type: textarea
+    id: proof-of-open-source
+    attributes:
+      label: Proof of open source contributions
+      description: Navigators are very active code contributors to the Fuel open source ecosystem. Share with us the links to GitHub open source repos where you have contributed in a meaningful way in the past 3 months.
+      placeholder: Add links to your open source Fuel contribution(s) here.
+  - type: textarea
+    id: fuel-forum-activity
+    attributes:
+      label: Activity on the Fuel forum
+      description: | 
+        Share with us the link to your Fuel Discourse forum (https://forum.fuel.network) profile. We will look to see for the following:
+        - You have been active on the forum in the past 3 months
+        - What kind of activity you have on the forum in that time, e.g. asking questions, helping others, etc.
+      placeholder: Add links to your forum profile here.
+  - type: textarea
+    id: proof-of-content-creation
+    attributes:
+      label: Proof of content creation
+      description: | 
+        Share with us links to any content you have created in the past three months that is related to Fuel. This can include blog posts, videos, podcasts, etc.
+      placeholder: Add links to your content here.
+  - type: textarea
+    id: proof-of-mentorship
+    attributes:
+      label: Proof of community mentorship
+      description: | 
+        Describe your involvement in helping to build up more developers in the Fuel community. This can include mentoring other developers, helping to answer questions on the forum, speaking at events, etc.
+      placeholder: Share your experiences here and include as many links as possible.
+  - type: textarea
+    id: social-media-links
+    attributes:
+      label: Links to your social media profiles
+      description: | 
+        Share with us links to any social media profiles you may have on web3 or web2.
+      placeholder: Add links to your social media profiles here.
+  - type: checkboxes
+    id: current-Navigator-member
+    attributes:
+      label: Applying as an Explorer
+      description: Navigator applications are only open to current Explorers in the program
+      options:
+      - label: I am currently an Explorer in the Champions program and applying to level up as a Navigator.
+        required: true
+  - type: checkboxes
+    id: code-of-conduct-agreement
+    attributes:
+      label: Code of Conduct Agreement
+      description: I have read and agree to the [Fuel Developer Champions Code of Conduct](https://github.com/fuel-champions/code-of-conduct).
+      options:
+      - label: I agree to follow the Code of Conduct
+        required: true
