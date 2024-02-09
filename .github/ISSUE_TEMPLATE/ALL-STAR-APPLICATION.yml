@@ -1,12 +1,12 @@
-name: Navigator Application
-description: Use this form to apply as a Navigator to the Fuel Developer Champions program.
+name: All-Star Application
+description: Use this form to apply as a All-Star to the Fuel Developer Champions program.
 title: "[Application] : "
 labels: ["application"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking the time to submit an application to level up as a Navigator in the Fuel Developer Champions program! Navigators are developers who have been building on Fuel for a while and are looking to continue their journey by taking the next step in the Champions program.
+        Thank you for taking the time to submit an application to level up as a All-Star in the Fuel Developer Champions program! All-Stars are developers who have been building on Fuel for a while and are looking to continue their journey by taking the next step in the Champions program.
   - type: markdown
     attributes:
       value: |
@@ -15,13 +15,13 @@ body:
     id: proof-of-innovative-work
     attributes:
       label: Proof of innovative work
-      description: Navigators are building advanced and innovative solutions on Fuel. Share with us the links to GitHub repos which demonstrates a level of innovation and unique problem solving in your work as it relates to Fuel.
+      description: All-Stars are building advanced and innovative solutions on Fuel. Share with us the links to GitHub repos which demonstrates a level of innovation and unique problem solving in your work as it relates to Fuel.
       placeholder: Add links to your Fuel project contribution(s) here.\
   - type: textarea
     id: proof-of-open-source
     attributes:
       label: Proof of open source contributions
-      description: Navigators are very active code contributors to the Fuel open source ecosystem. Share with us the links to GitHub open source repos where you have contributed in a meaningful way in the past 3 months.
+      description: All-Stars are very active code contributors to the Fuel open source ecosystem. Share with us the links to GitHub open source repos where you have contributed in a meaningful way in the past 3 months.
       placeholder: Add links to your open source Fuel contribution(s) here.
   - type: textarea
     id: fuel-forum-activity
@@ -54,12 +54,12 @@ body:
         Share with us links to any social media profiles you may have on web3 or web2.
       placeholder: Add links to your social media profiles here.
   - type: checkboxes
-    id: current-Navigator-member
+    id: current-all-Star-member
     attributes:
-      label: Applying as an Explorer
-      description: Navigator applications are only open to current Explorers in the program
+      label: Applying as a Veteran
+      description: All-Star applications are only open to current Veterans in the program
       options:
-      - label: I am currently an Explorer in the Champions program and applying to level up as a Navigator.
+      - label: I am currently a Veteran in the Champions program and applying to level up as a All-Star.
         required: true
   - type: checkboxes
     id: code-of-conduct-agreement
